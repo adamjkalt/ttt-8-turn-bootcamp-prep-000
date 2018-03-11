@@ -1,9 +1,7 @@
-require_relative '../lib/turn.rb'
+require_relative '../lib/turn'
+ 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+ 
 puts "Welcome to Tic Tac Toe!"
-<<<<<<< HEAD
-puts board = [" "," ", " ", " ", " ", " ", " ", " ", " "]
-puts "Where would you like to go?"
-user_input = gets.strip
-index = input_to_index(user_input)
-move(board, index)
 display_board(board)
+turn(board)
