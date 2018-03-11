@@ -40,11 +40,6 @@ def turn(board)
   while turn < 10
     turn += 1
     puts "Please enter 1-9"
-  if valid_move?
-    true
-  else
-    gets.strip
-
   end
 end
 end
