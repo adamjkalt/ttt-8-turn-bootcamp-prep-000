@@ -30,7 +30,7 @@ def position_taken?(board, index)
 end
 
 def turn(board)
-  turn = 0   
+  turn = 0
   while turn < 10
     turn += 1
     puts "Please enter 1-9:"
