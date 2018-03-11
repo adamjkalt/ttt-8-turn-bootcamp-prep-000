@@ -1,1 +1,15 @@
-#!/usr/bin/env ruby
+require_relative '../lib/move.rb'
+puts "Welcome to Tic Tac Toe!"
+<<<<<<< HEAD
+puts board = [" "," ", " ", " ", " ", " ", " ", " ", " "]
+puts "Where would you like to go?"
+user_input = gets.strip
+index = input_to_index(user_input)
+move(board, index)
+display_board(board)
+=======
+puts "Where would you like to go?"
+move = gets.strip
+display_board(update_array_at_with)
+>>>>>>> 488bcb24e949d201f47de9c3115584faad0724b1
+
