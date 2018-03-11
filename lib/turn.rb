@@ -44,7 +44,7 @@ def turn(board)
     true
   else
     gets.strip
-  
+
   end
 end
 end
