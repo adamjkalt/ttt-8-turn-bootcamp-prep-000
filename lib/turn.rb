@@ -33,6 +33,9 @@ def position_taken?(board, index)
 end
 
 def turn(board)
+  user_input = gets.strip
+  index = input_to_index(user_input)
+  move(board, index)
   turn = 0
   while turn < 10
     turn += 1
